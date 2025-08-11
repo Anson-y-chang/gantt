@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 100vh;
+  /* overflow: hidden; */
+}
+
+/* 拖曳section預覽位置 */
+.ghost * * {
+  border-left: none !important;
+  background: rgb(245 245 244) !important;
+  color: rgb(245 245 244) !important;
+  display: none;
+}
+
+/* 日期組件字體大小 */
+.p-datepicker-header,
+.p-datepicker-calendar,
+.p-monthpicker,
+.p-yearpicker {
+  font-size: 14px;
+}
+.p-datepicker-prev-icon,
+.p-datepicker-next-icon {
+  width: 14px;
+  height: 14px;
+}
+
+/* prime vue Button 不要 outline */
+.p-button {
+  outline: none;
+}
+
+/* primevue 下拉選單及多選框 搜尋input 樣式 */
+.p-dropdown-filter.p-inputtext.p-component,
+.p-multiselect-filter.p-inputtext.p-component {
+  padding: 4px 8px;
+  margin: 10px 0px;
+  width: 160px;
+}
+
+/* 多選框 checkbox 樣式 */
+.p-checkbox-input {
+  all: unset;
+  border: 1px solid #1d2939;
+  width: 14px !important;
+  height: 14px !important;
+  margin-top: 1px;
+  appearance: checkbox;
+  -webkit-appearance: checkbox;
+  display: inline-block;
+  vertical-align: middle;
+}
+.p-checkbox-box {
+  display: none;
+}
+
+.my-split-button .p-splitbutton-defaultbutton {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.my-split-button .p-splitbutton-defaultbutton:hover {
+  background-color: #f1f5f9;
+}
+.my-split-button .p-splitbutton-menubutton:hover {
+  background-color: #f1f5f9;
+}
+.p-tieredmenu {
+  min-width: 168px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Sidebar 的滾動條的樣式 */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px; /* 滾動條寬度 */
+    height: 8px; /* 滾動條高度 */
+    background-color: transparent; /* 軌道背景色透明 */
+  }
+
+  /* 滾動條的軌道樣式 */
+  .custom-scrollbar::-webkit-scrollbar-track {
+    cursor: default;
+    border-radius: 8px; /* 軌道圓角 */
+    background-color: #f5f5f5; /* 軌道背景色 */
+  }
+
+  /* 滾動條的滑塊樣式 */
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    cursor: default;
+    border-radius: 8px; /* 滑塊圓角 */
+    background-color: #d0d5dd; /* 滑塊背景色 */
+  }
+
+  /* 滑塊懸停效果 */
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    cursor: default;
+    background-color: #bababa; /* 滑塊懸停背景色 */
+  }
+}
+
+.list-row > div {
+  border-bottom: 1px #d0d5dd solid;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 48px;
+}

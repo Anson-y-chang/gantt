@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.184 3C10.68 3 11.082 3.407 11.082 3.909C11.0828 4.02767 11.0602 4.14533 11.0155 4.25525C10.9708 4.36518 10.9048 4.46521 10.8214 4.54963C10.738 4.63405 10.6388 4.70121 10.5294 4.74726C10.42 4.79331 10.3027 4.81735 10.184 4.818H6.592C5.6 4.818 4.796 5.632 4.796 6.635V17.541C4.796 18.545 5.6 19.359 6.592 19.359H17.368C18.36 19.359 19.165 18.545 19.165 17.541V13.906C19.165 13.404 19.567 12.997 20.063 12.997C20.559 12.997 20.961 13.404 20.961 13.907V17.541C20.961 19.549 19.352 21.177 17.368 21.177H6.592C4.608 21.177 3 19.549 3 17.541V6.635C3 4.628 4.608 3 6.592 3H10.184Z" fill="currentColor"/>
+<line x1="10.6" y1="8.78281" x2="15.4" y2="8.78281" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="bevel"/>
+<line x1="10.6" y1="11.983" x2="15.4" y2="11.983" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="bevel"/>
+<line x1="10.6" y1="14.983" x2="15.4" y2="14.983" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="bevel"/>
+<circle cx="8.6" cy="8.78311" r="0.6" fill="currentColor"/>
+<circle cx="8.6" cy="11.9828" r="0.6" fill="currentColor"/>
+<circle cx="8.6" cy="14.9828" r="0.6" fill="currentColor"/>
+</svg>
